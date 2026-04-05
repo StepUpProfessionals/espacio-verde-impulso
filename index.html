@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Espacio Verde — Plantas, tierra y vida para tu hogar</title>
+  <meta name="description" content="Escríbenos por WhatsApp, cuéntanos tu espacio y te orientamos para que elijas con claridad. Sin compromisos.">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,700;1,500&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ============================
+       1. HEADER CON NAVEGACIÓN
+  =============================== -->
+  <header class="header" id="header">
+    <div class="header__container">
+      <div class="header__brand">
+        <a href="#hero" class="header__name">Espacio Verde</a>
+        <span class="header__descriptor">Plantas, tierra y vida para tu hogar</span>
+      </div>
+      <nav class="header__nav" id="headerNav">
+        <a href="#hero" class="header__nav-link">Inicio</a>
+        <a href="#propuesta" class="header__nav-link">Propuesta</a>
+        <a href="#beneficios" class="header__nav-link">Beneficios</a>
+        <a href="#cta-final" class="header__nav-link">Contacto</a>
+      </nav>
+      <div class="header__actions">
+        <a href="https://wa.me/573005171856?text=Hola%2C+quiero+asesor%C3%ADa" class="header__cta btn btn--sm">Pide tu asesoría</a>
+        <button class="header__menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============================
+       2. HERO — ACCIÓN PRIORIZADA
+  =============================== -->
+  <section class="hero" id="hero">
+    <div class="hero__bg">
+      <img src="assets/hero_image.jpg" alt="Vista general de plantas y materas en Espacio Verde" class="hero__img" loading="eager">
+      <div class="hero__overlay"></div>
+    </div>
+    <div class="hero__container">
+      <div class="hero__content">
+        <span class="hero__tag">Asesoría personalizada</span>
+        <h1 class="hero__title">Te ayudamos a elegir las plantas perfectas para tu hogar</h1>
+        <p class="hero__desc">Escríbenos por WhatsApp, cuéntanos tu espacio y te orientamos para que elijas con claridad. Sin compromisos.</p>
+        <div class="hero__actions">
+          <a href="https://wa.me/573005171856?text=Hola%2C+quiero+asesor%C3%ADa" class="btn btn--primary btn--lg">Pide tu asesoría por WhatsApp</a>
+          <a href="https://maps.google.com" class="btn btn--outline">Cómo llegar</a>
+        </div>
+        <p class="hero__schedule">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          Lun–Sáb: 8am – 5pm
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================
+       3. PROPUESTA PRINCIPAL
+  =============================== -->
+  <section class="proposal" id="propuesta">
+    <div class="proposal__container">
+      <div class="proposal__content reveal">
+        <span class="proposal__tag">¿Cómo funciona?</span>
+        <h2 class="proposal__title">Escríbenos y te orientamos para que elijas mejor</h2>
+        <p class="proposal__text">No necesitas ser experto. Cuéntanos qué espacio quieres transformar, qué tanta luz tiene y qué buscas. Te sugerimos las mejores opciones y te las preparamos.</p>
+        <div class="proposal__points">
+          <div class="proposal__point">
+            <svg class="proposal__point-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            <span>Orientación según tu espacio real</span>
+          </div>
+          <div class="proposal__point">
+            <svg class="proposal__point-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            <span>Productos listos para ti</span>
+          </div>
+          <div class="proposal__point">
+            <svg class="proposal__point-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            <span>Sin presión, a tu ritmo</span>
+          </div>
+        </div>
+        <a href="https://wa.me/573005171856?text=Hola%2C+quiero+asesor%C3%ADa" class="btn btn--primary">Pide tu asesoría por WhatsApp</a>
+      </div>
+      <div class="proposal__image reveal">
+        <img src="assets/propuesta_1.jpg" alt="Asesoría personalizada para elegir plantas y materas para el hogar" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================
+       4. BENEFICIOS PARA ACTUAR
+  =============================== -->
+  <section class="benefits" id="beneficios">
+    <div class="benefits__container">
+      <div class="benefits__header reveal">
+        <h2 class="benefits__title">¿Por qué escribirnos?</h2>
+        <p class="benefits__subtitle">Razones concretas para dar el primer paso.</p>
+      </div>
+
+      <div class="benefits__grid">
+
+        <div class="benefits__card reveal" data-benefit>
+          <div class="benefits__card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <h3 class="benefits__card-title">Elige según tu espacio</h3>
+          <p class="benefits__card-text">Te orientamos según la luz, el tamaño y el estilo de tu hogar.</p>
+        </div>
+
+        <div class="benefits__card reveal" data-benefit>
+          <div class="benefits__card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </div>
+          <h3 class="benefits__card-title">Ahorra tiempo</h3>
+          <p class="benefits__card-text">No recorras tiendas sin saber qué buscar. Te preparamos todo.</p>
+        </div>
+
+        <div class="benefits__card reveal" data-benefit>
+          <div class="benefits__card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          </div>
+          <h3 class="benefits__card-title">Compra con claridad</h3>
+          <p class="benefits__card-text">Sabrás exactamente qué necesita cada planta antes de llevarla.</p>
+        </div>
+
+        <div class="benefits__card reveal" data-benefit>
+          <div class="benefits__card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          </div>
+          <h3 class="benefits__card-title">Resuelve dudas antes</h3>
+          <p class="benefits__card-text">Pregunta lo que necesites antes de decidir. Sin compromisos.</p>
+        </div>
+
+        <div class="benefits__card reveal" data-benefit>
+          <div class="benefits__card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          </div>
+          <h3 class="benefits__card-title">Atención real y cercana</h3>
+          <p class="benefits__card-text">Hablamos contigo directamente, sin bots ni esperas largas.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================
+       5. APOYO VISUAL
+  =============================== -->
+  <section class="visual" id="visual">
+    <div class="visual__container reveal">
+      <div class="visual__content">
+        <span class="visual__tag">El resultado</span>
+        <h2 class="visual__title">Así se ve un hogar con las plantas correctas</h2>
+        <p class="visual__text">Cada planta en el lugar adecuado transforma un espacio. Te ayudamos a que eso pase en tu casa.</p>
+        <a href="https://wa.me/573005171856?text=Hola%2C+quiero+asesor%C3%ADa" class="btn btn--outline-dark">Pide tu asesoría por WhatsApp</a>
+      </div>
+      <div class="visual__images">
+        <div class="visual__img visual__img--main">
+          <img src="assets/apoyo_1.jpg" alt="Espacio interior con plantas decorando el hogar" loading="lazy">
+        </div>
+        <div class="visual__img visual__img--secondary">
+          <img src="assets/apoyo_2.jpg" alt="Rincón del hogar con plantas y luz natural" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================
+       6. CONFIANZA / RESPALDO
+  =============================== -->
+  <section class="trust" id="confianza">
+    <div class="trust__container">
+      <h2 class="trust__title reveal">¿Por qué confiar en nosotros?</h2>
+      <div class="trust__grid">
+
+        <div class="trust__item reveal">
+          <div class="trust__number">01</div>
+          <h3 class="trust__item-title">Atención directa</h3>
+          <p class="trust__item-text">Te atendemos personalmente por WhatsApp. Sin formularios ni esperas.</p>
+        </div>
+
+        <div class="trust__item reveal">
+          <div class="trust__number">02</div>
+          <h3 class="trust__item-title">Orientación real</h3>
+          <p class="trust__item-text">No vendemos por vender. Te sugerimos lo que realmente funciona para tu espacio.</p>
+        </div>
+
+        <div class="trust__item reveal">
+          <div class="trust__number">03</div>
+          <h3 class="trust__item-title">Productos con criterio</h3>
+          <p class="trust__item-text">Cada planta que ofrecemos está seleccionada, sana y lista para adaptarse a tu hogar.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================
+       7. ENCUÉNTRANOS / CONTACTO
+  =============================== -->
+  <section class="info" id="info">
+    <div class="info__container">
+      <h2 class="info__title">Encuéntranos</h2>
+      <div class="info__layout">
+        <div class="info__data">
+          <div class="info__group reveal">
+            <div class="info__group-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div class="info__group-body">
+              <h3 class="info__group-title">Dirección</h3>
+              <p class="info__group-text">Calle 52 #8-15<br>Barrio Palermo<br>Manizales, Colombia</p>
+            </div>
+          </div>
+          <div class="info__group reveal">
+            <div class="info__group-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <div class="info__group-body">
+              <h3 class="info__group-title">Horario</h3>
+              <p class="info__group-text info__group-text--schedule">Lunes a Viernes: 8am – 5pm
+Sábados: 9am – 2pm
+Domingos: Cerrado</p>
+            </div>
+          </div>
+          <div class="info__group reveal">
+            <div class="info__group-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </div>
+            <div class="info__group-body">
+              <h3 class="info__group-title">Contacto</h3>
+              <div class="info__contacts">
+                <a href="https://wa.me/573005171856" class="info__contact-link">
+                  <svg class="icon" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.492a.5.5 0 00.611.611l4.458-1.495A11.952 11.952 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-2.347 0-4.518-.802-6.237-2.147l-.364-.303-3.176 1.064 1.064-3.176-.303-.364A9.958 9.958 0 012 12C2 6.486 6.486 2 12 2s10 4.486 10 10-4.486 10-10 10z"/></svg>
+                  WhatsApp
+                </a>
+                <a href="tel:300 123 4567" class="info__contact-link">
+                  <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                  300 123 4567
+                </a>
+                <a href="mailto:hola@espacioverde.co" class="info__contact-link">
+                  <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                  hola@espacioverde.co
+                </a>
+              </div>
+            </div>
+          </div>
+          <a href="https://maps.google.com" class="btn btn--primary info__btn-map" target="_blank" rel="noopener">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            Cómo llegar
+          </a>
+        </div>
+        <div class="info__map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.9571914545295!2d-75.56742988874794!3d6.2693604936931155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4428e80e411f91%3A0x142ab912fdb68353!2zSmFyZMOtbiBCb3TDoW5pY28gZGUgTWVkZWxsw61u!5e0!3m2!1sen!2sco!4v1775246495615!5m2!1sen!2sco" allowfullscreen loading="lazy"></iframe></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================
+       8. CTA FINAL REFORZADO
+  =============================== -->
+  <section class="cta-final" id="cta-final">
+    <div class="cta-final__container reveal">
+      <h2 class="cta-final__title">¿Listo para transformar tu espacio?</h2>
+      <p class="cta-final__text">Escríbenos ahora por WhatsApp. Te asesoramos gratis y te preparamos lo que necesitas.</p>
+      <div class="cta-final__actions">
+        <a href="https://wa.me/573005171856?text=Hola%2C+quiero+asesor%C3%ADa" class="btn btn--primary btn--lg">Pedir asesoría por WhatsApp</a>
+        <a href="https://maps.google.com" class="btn btn--outline-light">Ver ubicación</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================
+       9. FOOTER
+  =============================== -->
+  <footer class="footer" id="footer">
+    <div class="footer__container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <span class="footer__name">Espacio Verde</span>
+          <span class="footer__descriptor">Plantas, tierra y vida para tu hogar</span>
+        </div>
+        <div class="footer__details">
+          <p><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Palermo, Manizales</p>
+          <p><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> Lun–Sáb: 8am – 5pm</p>
+          <p><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg> 300 123 4567</p>
+        </div>
+        <div class="footer__social">
+          <a href="https://instagram.com/espacioverde" target="_blank" rel="noopener" class="footer__social-link" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <a href="https://facebook.com/espacioverde" target="_blank" rel="noopener" class="footer__social-link" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copy">&copy; <span id="currentYear">2026
+```</span> Espacio Verde. Todos los derechos reservados.</p>
+        <p class="footer__credit">Desarrollado por <a href="https://wa.me/573005171856" target="_blank" rel="noopener">Step Up Business Solutions</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
